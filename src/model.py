@@ -31,7 +31,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 # 3. Identificar tipos de variáveis
 numeric_features, categorical_features = get_feature_types(X_train)
 
-# 4. Criar preprocessor usando sua função
+# 4. Criar preprocessor 
 preprocessor_lr = build_preprocessor(
     numeric_features,
     categorical_features
