@@ -109,6 +109,7 @@ Entre os thresholds possíveis, foi escolhido aquele que apresentou a melhor pre
 ---
 
 ## 📁 Estrutura do Projeto
+```
 predicao-avc-ml/
 ├── dataset/
 ├── notebooks/
@@ -118,7 +119,7 @@ predicao-avc-ml/
 │ ├── model.py
 │ └── models/
 └── README.md
-
+```
 
 ---
 
