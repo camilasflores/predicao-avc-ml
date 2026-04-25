@@ -117,7 +117,6 @@ predicao-avc-ml/
 │ ├── preprocessing.py
 │ ├── features.py
 │ ├── model.py
-│ └── models/
 └── README.md
 ```
 
