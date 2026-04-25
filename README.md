@@ -156,14 +156,24 @@ python -m src.model
 
 A **Regressão Logística com SMOTE e ajuste de threshold baseado em recall mínimo (0.7)** se mostrou a abordagem mais adequada para o problema.
 
+Durante o projeto, também foi avaliado o modelo **Gradient Boosting**, porém a Regressão Logística apresentou desempenho superior em todos os critérios analisados.
+
+Comparativamente:
+
+- Maior capacidade de separação dos dados (**ROC AUC: 0.845 vs 0.80**)
+- Maior precisão no cenário ajustado (**~0.21 vs ~0.12**)
+- Mesmo nível de recall (≥ 0.7)
+- Menor número de falsos positivos
+
+Dessa forma, a Regressão Logística foi escolhida como modelo final por apresentar melhor equilíbrio entre **sensibilidade (recall)** e **confiabilidade (precision)**, além de ser mais simples e interpretável.
+
 Essa estratégia permitiu:
 
 - manter foco na detecção de casos de AVC  
 - reduzir falsos negativos  
 - controlar melhor o número de falsos positivos  
 
-O projeto reforça a importância de alinhar o modelo ao objetivo do problema, especialmente em cenários críticos como saúde.
-
+O projeto reforça a importância de alinhar a escolha do modelo ao objetivo do problema, especialmente em cenários críticos como saúde, onde o custo de erro deve ser cuidadosamente avaliado.
 ---
 
 ## 👩‍💻 Autora
