@@ -170,11 +170,10 @@ Essa estratégia permitiu:
 
 - manter foco na detecção de casos de AVC  
 - reduzir falsos negativos  
-- controlar melhor o número de falsos positivos  
+- controlar melhor o número de falsos positivos
 
----
+O projeto reforça que o médico SEMPRE deve ter a palavra final. O modelo é um apoio, não um substituto.  
 
-O projeto reforça a importância de alinhar a escolha do modelo ao objetivo do problema, especialmente em cenários críticos como saúde, onde o custo de erro deve ser cuidadosamente avaliado.
 ---
 
 ## 👩‍💻 Autora
