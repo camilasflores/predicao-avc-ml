@@ -172,7 +172,14 @@ Essa estratégia permitiu:
 - reduzir falsos negativos  
 - controlar melhor o número de falsos positivos
 
-O projeto reforça que o médico SEMPRE deve ter a palavra final. O modelo é um apoio, não um substituto.  
+### 📊 Comparação final dos modelos
+
+| Modelo              | ROC AUC | Threshold | Precision | Recall | Falsos Positivos |
+|---------------------|---------|-----------|-----------|--------|------------------|
+| Logistic Regression | 0.845   | 0.7257    | 0.21      | 0.70   | 131              |
+| Gradient Boosting   | 0.80    | 0.2622    | 0.12      | 0.70   | 250              |
+
+O modelo deve ser utilizado como ferramenta de apoio à decisão, não substituindo a avaliação clínica especializada.
 
 ---
 
