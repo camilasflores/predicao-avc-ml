@@ -103,7 +103,7 @@ Entre os thresholds possíveis, foi escolhido aquele que apresentou a melhor pre
 - O uso de **SMOTE foi essencial** para melhorar a detecção de AVC  
 - A feature `risk_count` **não trouxe ganho significativo**, indicando que o modelo já captura essas relações  
 - O ajuste de threshold permite adaptar o modelo ao objetivo do problema  
-- Modelos mais complexos (como Random Forest) não necessariamente performam melhor  
+- Modelos mais complexos não necessariamente performam melhor  
 
 ---
 
@@ -132,7 +132,7 @@ cd predicao-avc-ml
 
 
 3. Instale as dependências:
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
+pip install -r requirements.txt
 
 4. Execute o modelo:
 python -m src.model
