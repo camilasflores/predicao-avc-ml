@@ -58,7 +58,6 @@ Foi utilizado o dataset **Healthcare Stroke Dataset**, contendo variáveis como:
 Foram testados diferentes modelos:
 
 - Regressão Logística ✅ (principal)
-- Random Forest (comparação)
 - Gradient Boosting (comparação)
 
 ### 5. Feature Engineering
@@ -172,6 +171,8 @@ Essa estratégia permitiu:
 - manter foco na detecção de casos de AVC  
 - reduzir falsos negativos  
 - controlar melhor o número de falsos positivos  
+
+---
 
 O projeto reforça a importância de alinhar a escolha do modelo ao objetivo do problema, especialmente em cenários críticos como saúde, onde o custo de erro deve ser cuidadosamente avaliado.
 ---
